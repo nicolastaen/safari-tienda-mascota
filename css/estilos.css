@@ -1,25 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa+One:ital@0;1&family=Rubik+Dirt&display=swap');
+
 *{
     margin: 0;
     padding: 0;
 }
 
-.card{
-    width: 350px;
-    background-color: #676767;
-    border: 1.5px solid #000;
+body{
+    background-color: #211b1b;
+}
+
+.top_pagina{
+    border-bottom: 3px solid #3c2727;
+    display: flex;
+    justify-content: space-between;
+}
+
+.top_pagina img{
     margin: 20px;
-    padding: 20px;
 }
 
-.card button{
-    margin: 5px;
-    padding: 5px;
-    background-color: rgb(144, 4, 4);
-    color: white;
-    border-radius: 5px;
-
+.top_pagina nav{
+    padding: 60px;
 }
 
-#subtitulos{
-    color: #ca0e7b
+.top_pagina a{
+    font-size: x-large;
+    padding-left: 20px;
+    font-family: "Changa One", sans-serif;
+    font-weight: 400px;
+    font-style: normal;
+    color: rgb(255, 162, 0);
 }
