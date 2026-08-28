@@ -12,15 +12,17 @@ body{
 .top_pagina{
     border-bottom: 3px solid #3c2727;
     display: flex;
-    justify-content: space-between;
+    justify-content:space-around
 }
 
 .top_pagina img{
-    margin: 20px;
+    padding: 10px;
 }
 
 .top_pagina nav{
-    padding: 60px;
+    display: flex;
+    text-align: center;
+    align-items: center;
 }
 
 .top_pagina a{
@@ -30,4 +32,109 @@ body{
     font-weight: 400px;
     font-style: normal;
     color: rgb(255, 162, 0);
+}
+.banner1{
+    width: 100%;
+    height: auto;
+}
+
+.texto{
+    display: block;
+    align-items: center;
+    text-align: center;
+}
+.texto p{
+    margin-top: 20px;
+    font-size: x-large;
+    padding-left: 20px;
+    font-family: "Changa One", sans-serif;
+    font-weight: 400px;
+    font-style: normal;
+    color: rgb(255, 162, 0);
+}
+
+.barra{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    text-align: start;
+}
+
+.barra .buscar{
+    margin-top: 10px;
+    border: 2px solid;
+    border-radius: 30px;
+    background-color: rgb(233, 233, 233);
+    padding: 10px;
+    width: 50%;
+}
+.barra .buscar p{
+    font-family: "Changa One", sans-serif;
+    font-style: normal;
+}
+
+.productos{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.card{
+    border: 2px solid black;
+    width: 300px;
+    margin-top: 30px;
+
+}
+.card img{
+    width: 100%;
+    height: auto;
+}
+
+@media(max-width: 576px){
+    *{
+    margin: 0;
+    padding: 0;
+    }
+
+    body{
+        background-color: #211b1b;
+    }
+
+    .top_pagina{
+        border-bottom: 3px solid #3c2727;
+    }
+
+    .top_pagina img{
+        margin: 20px;
+    }
+
+    .top_pagina nav{
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+        gap: 10px;
+    }
+
+    .top_pagina a{
+        font-size: x-large;
+        padding-left: 20px;
+        font-family: "Changa One", sans-serif;
+        font-weight: 400px;
+        font-style: normal;
+        color: rgb(255, 162, 0);
+    }
+    .productos{
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+    .card{
+        border: 2px solid black;
+        width: 300px;
+        margin-top: 30px;
+
+    }
+    .imagen{
+        width: 250px;
+    }
 }
