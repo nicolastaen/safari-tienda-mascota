@@ -74,6 +74,34 @@ body{
     font-style: normal;
 }
 
+.seccion2{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+.seccion2 .cards img{
+    margin-top: 30px;
+    width: 95%;
+    height: auto;
+    border-radius: 20px;
+
+    transition: transform 0.3s ease;
+}
+.seccion2 .cards img:hover{
+    transform: scale(1.05);
+}
+
+
+
+
+
+
+
+
+
 .productos{
     display: flex;
     align-items: center;
